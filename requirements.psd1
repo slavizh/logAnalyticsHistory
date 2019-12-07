@@ -3,5 +3,4 @@
 #
 @{
     'Az' = '3.*'
-    'OMSIngestionAPI' = '1.6'
 }

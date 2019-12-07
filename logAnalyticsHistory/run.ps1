@@ -9,8 +9,8 @@ Write-Host "PowerShell HTTP trigger function processed a request."
 try
 {
     $message = ''
-    $workspaceName = 'ws007'
-    $workspaceResourceGroup = 'KustoTest'
+    $workspaceName = '<the name of your workspace>'
+    $workspaceResourceGroup = '<the name of the resource group>'
     $workspace = Get-AzOperationalInsightsWorkspace -ResourceGroupName $workspaceResourceGroup -Name $workspaceName
     $query = @"
         Perf
